@@ -1,4 +1,3 @@
-**
 # Zingle AI — **Generate the Business Meaning of Tables & Columns**
 
 > Unlock untapped knowledge within your software repo about your tables, columns to make AI agents better understand your schema.
@@ -9,13 +8,13 @@ Improve your text to sql systems, Improve your AI agents within snowflake, datab
 
 Getting Started
 
-Install ZingleAI by clicking `Install` on the banner above, or from the Extensions side bar in VS Code by searching for ZingleAI.
+Install ZingleAI by clicking `Install` on the banner above, or from the Extensions side bar in VS Code by searching for Zingle.
 
 **Watch the overview**
 
 <a href="https://youtu.be/Erc_7Wk3uHs" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png" alt="Get started video thumbnail"></a>
 
-Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&ssr=false#review-details).
+Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=ZingleAI.zingleai-codebase2docs&ssr=false#review-details).
 
 **Zingle AI Community** is free and gives you powerful tools to generate Context of your tables, columns. It allows you to generate deep context about your database tables and columns by directly utilising information from source codebases which directly created or modifies your tables and columns.
 
