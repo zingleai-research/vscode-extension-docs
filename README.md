@@ -13,7 +13,7 @@ Install ZingleAI by clicking `Install` on the banner above, or from the Extens
 
 **Watch the overview**
 
-[![Get started video thumbnail](https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png)](https://youtu.be/Erc_7Wk3uHs "Watch on YouTube")
+<a href="https://youtu.be/Erc_7Wk3uHs" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png" alt="Get started video thumbnail"></a>
 
 Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&ssr=false#review-details).
 
