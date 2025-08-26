@@ -16,7 +16,7 @@ Install ZingleAI by clicking `Install` on the banner above, or from the Extens
 
 Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=ZingleAI.zingleai-codebase2docs&ssr=false#review-details).
 
-**Zingle AI Community** is free and gives you powerful tools to generate Context of your tables, columns. It allows you to generate deep context about your database tables and columns by directly utilising information from source codebases which directly created or modifies your tables and columns.
+**Zingle AI** is free and gives you powerful tools to generate Context of your tables, columns. It allows you to generate deep context about your database tables and columns by directly utilising information from source codebases which directly created or modifies your tables and columns.
 
 **Generated table/column documentation contains deep business context. It will enable your snowflake, databricks, dbt, bigquery and other AI agents to work with higher accuracy on your tables.** 
 
@@ -57,6 +57,4 @@ Website: https://getzingle.com/
 
 LinkedIn: https://www.linkedin.com/company/zingleapp/
 
-**License**
-
-MIT
+**License**: MIT
