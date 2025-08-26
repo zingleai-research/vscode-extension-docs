@@ -1,63 +1,63 @@
-# Zingle AI
+**
+# Zingle AI — **Generate the Business Meaning of Tables & Columns**
 
-## Document the Meaning of Tables & Columns
+> Unlock untapped knowledge within your software repo about your tables, columns to make AI agents better understand your schema.
 
-Zingle AI automatically generates documentation for database tables and columns that are directly created or modified by your application's codebase. It helps software teams generate detailed documentation for tables and columns. Once generated, this documentation can be passed on to data teams.
+Zingle AI is a powerful open source extension for Visual Studio Code built and maintained by Zingle AI Lab.
 
-### Generated table/column documentation contains:
-1. ⁠How tables/columns get calculated and used in software codebases.
-2. ⁠How real-world business activities update and use tables and columns, and how these activities are connected to the data in your codebase.
+Improve your text to sql systems, Improve your AI agents within snowflake, databricks, bigquery, dbt etc  with rich context generated directly from source software codebases which generates these tables/columns —all within VS Code. 
 
-## 🚀 Get Started
-1. Click on `Generate Column Documentation` to start generating documentation of tables/columns
+Getting Started
 
-<img src="readme_images/status_bar.png" alt="Status Bar Icon" width="500"/>
+Install ZingleAI by clicking `Install` on the banner above, or from the Extensions side bar in VS Code by searching for ZingleAI.
 
-2. Enter the table names (comma-separated) or leave it blank for AI to automatically figure out from codebase
+**Watch the overview**
 
-<img src="readme_images/input_box.gif" alt="Input Text Box" width="500"/>
+[![Get started video thumbnail](https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png)](https://youtu.be/Erc_7Wk3uHs "Watch on YouTube")
 
-3. View the generated documentation at `.codebase2docs/output/table_descriptions.csv` and `.codebase2docs/output/column_descriptions.csv`
+Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&ssr=false#review-details).
 
-<img src="readme_images/output.png" alt="Output CSV Files" width="500"/>
+**Zingle AI Community** is free and gives you powerful tools to generate Context of your tables, columns. It allows you to generate deep context about your database tables and columns by directly utilising information from source codebases which directly created or modifies your tables and columns.
 
-## 🛠️ Supported Languages & Frameworks
+**Generated table/column documentation contains deep business context. It will enable your snowflake, databricks, dbt, bigquery and other AI agents to work with higher accuracy on your tables.** 
+
+**🛠️ Supported Languages & Frameworks**
+
 Zingle AI works with any language or framework — no special setup required.
 
-## 📋 Requirements
+**📋 Requirements**
 
-Note: Claude Code is installed automatically when you install the extension.
+- Internet connection
+- Node.js version 18 or higher
 
-### For Linux / macOS
-- npm
-- [Claude Code](https://github.com/anthropics/claude-code)
+**For Windows**
 
-### For Windows
-- Windows Subsystem for Linux (installed manually - needed by Claude Code)
-- npm
-- [Claude Code](https://github.com/anthropics/claude-code)
+- Windows Subsystem for Linux (WSL) is required
 
-## Notes
+**Privacy and Security**
 
-- The documentation generation process can take a significant amount of time (~30 mins for large codebases)
-- The extension will show progress notifications and status updates
-- Results are cached to avoid regenerating documentation unnecessarily
+Your code and data privacy are paramount.
 
-### API Key Configuration
+**Your Code Stays Yours**: Code and generated documentation remain in your local environment. Zingle AI doesn't store your code.
 
-By default, the extension comes with a limited API key that allows processing up to 5 tables. For larger projects, you should provide your own API key:
+**No AI Model Training**: Your code is never used to train external AI models.
 
-1. Get an API key from Claude (https://console.anthropic.com/)
-2. Use the command "Codebase2Docs: Configure Claude API Key" from the command palette
-3. Choose "Enter My Own API Key" and paste your key
+**Local Processing**: Documentation generation happens locally on your machine, ensuring your code never leaves your environment.
 
-## Support
-Mail: atishay@getzingle.com 
+**Support**
 
-Whatsapp: https://wa.me/919131266517?text=VS-Code%20Extension
+Slack:  https://join.slack.com/t/zingleai/shared_invite/zt-3c3rp1vpg-6BXpK2eTdwUNogugSDcM~Q
 
-Slack:  https://join.slack.com/t/zingleai/shared_invite/zt-3516obp07-zMLDwt3yX71OrqO4p6f2gQ
+Instant WhatsApp Support: https://wa.me/919131266517?text=VS-Code%20Extension
 
-## License
+Book a Video Meet With Creators: https://calendly.com/founder-zingle/30min
+
+Mail: support@getzingle.com
+
+Website: https://getzingle.com/
+
+LinkedIn: https://www.linkedin.com/company/zingleapp/
+
+**License**
 
 MIT
