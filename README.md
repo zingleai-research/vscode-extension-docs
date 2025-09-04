@@ -1,60 +1,87 @@
 # Zingle AI — **Generate the Business Meaning of Tables & Columns**
 
-> Unlock untapped knowledge within your software repo about your tables, columns to make AI agents better understand your schema.
+> Unlock the untapped knowledge in your **codebase** about your **tables and columns**, so AI agents can truly understand your data schema.
 
-Zingle AI is a powerful open source extension for Visual Studio Code built and maintained by Zingle AI Lab.
+**Zingle AI** is an open-source VS Code extension (by Zingle AI Lab) that scans your application’s **source code** (migrations, ORM models, services, etc.) to automatically generate **rich, business-ready documentation** for your database tables and columns.  
+Use it to bridge the gap between raw schema definitions and real business context—so text-to-SQL tools and data AI assistants (Snowflake, Databricks, BigQuery, dbt, etc.) produce **accurate, trustworthy answers**.
 
-Improve your text to sql systems, Improve your AI agents within snowflake, databricks, bigquery, dbt etc  with rich context generated directly from source software codebases which generates these tables/columns —all within VS Code. 
+<p align="center">
+  <a href="https://youtu.be/Erc_7Wk3uHs" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png" alt="Watch the Zingle AI overview video" width="520">
+  </a>
+</p>
 
-Getting Started
 
-Install ZingleAI by clicking `Install` on the banner above, or from the Extensions side bar in VS Code by searching for Zingle.
+## Why this matters
 
-**Watch the overview**
+Schemas rarely capture **real business meaning**. That’s why AI answers are often ambiguous.
 
-<a href="https://youtu.be/Erc_7Wk3uHs" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/gitkraken/vscode-gitlens/main/images/docs/get-started-video.png" alt="Get started video thumbnail"></a>
+**Example**
 
-Have questions or concerns? Talk to our engineering team directly through our [GitHub Discussions](https://github.com/gitkraken/vscode-gitlens/discussions/categories/feedback) page. Having a positive experience with GitLens? Feel free to [write a review](https://marketplace.visualstudio.com/items?itemName=ZingleAI.zingleai-codebase2docs&ssr=false#review-details).
+- **Column:** `fare`  
+- **Typical doc:** “The fare amount.”  
+- **Result:** Confusion (Does it include surge? Tips? Tolls? What about cancelled rides?)
 
-**Zingle AI** is free and gives you powerful tools to generate Context of your tables, columns. It allows you to generate deep context about your database tables and columns by directly utilising information from source codebases which directly created or modifies your tables and columns.
+**With Zingle AI**
 
-**Generated table/column documentation contains deep business context. It will enable your snowflake, databricks, dbt, bigquery and other AI agents to work with higher accuracy on your tables.** 
+- **Column:** `fare`  
+- **Generated doc:**  
+  *“Final computed fare after ride completion. Calculated by the fare engine using distance, duration, base fare, surge multipliers, and tolls. Excludes tips and cancellation fees (captured separately). Null if ride not completed or fare calculation failed.”*  
+- **Result:** Clear logic → **trustworthy AI answers**
 
-**🛠️ Supported Languages & Frameworks**
+▶ **Watch “Why Context Matters” (2 min):** https://youtu.be/B64ywqOwdhI
 
-Zingle AI works with any language or framework — no special setup required.
+---
 
-**📋 Requirements**
+## What Zingle AI does
 
-- Internet connection
-- Node.js version 18 or higher
+Automatically generates detailed docs for every table and column, including:
 
-**For Windows**
+- **Business process context** — why it exists, what it represents, how it’s used  
+- **Value definitions** — explain codes and enums in business terms (e.g., `C`, `R`, `D`)  
+- **Process mapping** — where app logic inserts/updates values; calculations and conditions
 
-- Windows Subsystem for Linux (WSL) is required
+This richer context makes assistants like **Snowflake Cortex**, **Databricks Genie**, **dbt Semantic Layer**, **BigQuery AI** more **accurate, reliable, and auditable**.
 
-**Privacy and Security**
+---
 
-Your code and data privacy are paramount.
+## Examples
 
-**Your Code Stays Yours**: Code and generated documentation remain in your local environment. Zingle AI doesn't store your code.
+See real samples of Zingle-generated docs:  
+**🔗 https://zingleai.notion.site/zingle-ai-context-examples**
 
-**No AI Model Training**: Your code is never used to train external AI models.
+---
 
-**Local Processing**: Documentation generation happens locally on your machine, ensuring your code never leaves your environment.
+## Requirements
 
-**Support**
+- **VS Code** with an internet connection  
+- **Node.js ≥ 18** installed  
+- **Windows users:** enable **WSL**
 
-Slack:  https://join.slack.com/t/zingleai/shared_invite/zt-3c3rp1vpg-6BXpK2eTdwUNogugSDcM~Q
+---
 
-Instant WhatsApp Support: https://wa.me/919131266517?text=VS-Code%20Extension
+## Privacy & Security
 
-Book a Video Meet With Creators: https://calendly.com/founder-zingle/30min
+- **Your code stays local** — source and generated docs remain on your machine  
+- **No external training** — your code is **never** used to train models  
+- **Local processing** — documentation generation runs locally
 
-Mail: support@getzingle.com
+---
 
-Website: https://getzingle.com/
+## Support
 
-LinkedIn: https://www.linkedin.com/company/zingleapp/
+- **Slack:** Join the community — https://join.slack.com/t/zingleai/shared_invite/zt-3c3rp1vpg-6BXpK2eTdwUNogugSDcM~Q  
+- **WhatsApp:** Instant help — https://wa.me/919131266517?text=VS-Code%20Extension  
+- **Live Demo:** Book a 30-min call — https://calendly.com/founder-zingle/30min  
+- **Email:** support@getzingle.com  
+- **Website:** https://getzingle.com/  
+- **LinkedIn:** https://www.linkedin.com/company/zingleapp/
 
-**License**: MIT
+If Zingle AI helps you, please ⭐ **leave a review**:  
+https://marketplace.visualstudio.com/items?itemName=ZingleAI.zingleai-codebase2docs&ssr=false#review-details
+
+---
+
+## License
+
+**MIT**
